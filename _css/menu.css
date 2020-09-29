@@ -1,0 +1,81 @@
+div#menu {
+    display: block;
+    height: 1400px;
+}
+
+div#menu div#texto-um {
+    top: 100px;
+    left: 10%;
+}
+
+div#menu div#texto-dois {
+    top: 200px;
+    left: 70%;
+}
+
+div#menu div#texto-tres {
+    top: 300px;
+    left: 10%;
+}
+
+div#menu div#texto-quatro {
+    top: 400px;
+    left: 70%;
+}
+
+div#menu h1#titulo-principal {
+    text-transform: uppercase;
+    font-family: consolas, Arial, sans-serif;
+    font-size: 50pt;
+    display: block;
+    position: relative;
+    width: 450px;
+    text-align: center;
+    border-radius: 3px;
+    margin: auto auto 0px auto;
+    padding: 10px;
+    letter-spacing: 5px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+div#menu h1#titulo-principal:hover {
+    background-color:  rgb(26, 116, 14);
+    box-shadow: 0px 0px 10px rgb(26, 116, 14), 0px 0px 40px rgb(26, 116, 14), 0px 0px 80px rgb(26, 116, 14);
+    transition-delay: 1s;
+}
+
+div#menu h2#sub-titulo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: consolas, Arial, sans-serif;
+    font-size: 30pt;
+    display: block;
+    position: relative;
+    width: 450px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+div#menu h2#sub-titulo:hover {
+    background-color:  rgb(26, 116, 14);
+    box-shadow:0px 0px 10px  rgb(26, 116, 14), 0px 0px 40px  rgb(26, 116, 14), 0px 0px 80px  rgb(26, 116, 14);
+    transition-delay: 1s;
+}
+
+.blocos-um {
+    display: block;
+    position: relative;
+    width: 300px;
+    background-color:  rgb(26, 116, 14);
+    color: black;
+    border-radius: 10px;
+    padding: 1px 15px 1px 15px;
+    box-shadow: 0 0 10px rgb(26, 116, 14), 0 0 40px rgb(26, 116, 14), 0 0 80px rgb(26, 116, 14);
+}

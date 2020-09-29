@@ -1,0 +1,59 @@
+.neon span {
+    display: block;
+    position: absolute;
+}
+
+.neon span:nth-child(1) {
+    background-image: linear-gradient(90deg, transparent,rgb(26, 116, 14));
+    top: 0;
+    width: 100%;
+    left: -100%;
+    height: 2px;
+}
+
+.neon:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon span:nth-child(2) {
+    background-image: linear-gradient(180deg, transparent, rgb(26, 116, 14));
+    right: 0;
+    height: 100%;
+    top: -100%;
+    width: 2px;
+}
+
+.neon:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon span:nth-child(3) {
+    background-image: linear-gradient(270deg, transparent,rgb(26, 116, 14));
+    bottom: 0;
+    width: 100%;
+    right: -100%;
+    height: 2px;
+}
+
+.neon:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon span:nth-child(4) {
+    background-image: linear-gradient(360deg, transparent, rgb(26, 116, 14));
+    left: 0;
+    height: 100%;
+    bottom: -100%;
+    width: 2px;
+}
+
+.neon:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

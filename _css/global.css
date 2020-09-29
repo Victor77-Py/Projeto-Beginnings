@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    background: url('../_imagens/_fundo/foto-paisagem-quatro.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: consolas, sans-serif;
+    margin: 0;
+}
+
+
+
+div#nav {
+    background-color: rgb(39, 39, 39);
+    display: block;
+    position: relative;
+    top: -16px;
+    text-align: center;
+}
+
+div#nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+div#nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div#nav ul li:hover {
+    transition: 0.5s;
+    background-color: rgba(80, 80, 80, 0.952);
+}
+
+footer {
+    display: block;
+    position: relative;
+    background: linear-gradient(to right, #606060, rgb(39, 39, 39) );
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    line-height: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+/*background: linear-gradient(90deg, rgb(10, 49, 6), rgb(16, 88, 7));*/

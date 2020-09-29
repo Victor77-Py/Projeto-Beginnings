@@ -1,0 +1,257 @@
+=============================================================
+Others:
+------------
+
+Stone = Minerando
+
+Log = Cortar arvore
+
+Cotton = coloca no cotton gin
+
+Flour = coloca no mill
+=============================================================
+Materials:
+------------
+
+Bronze = 1 Tin + 1 Copper
+
+Steel = 1 Iron + 1 Coal
+
+Stone = 1 Boulder
+
+Boulder = 2 Stone
+
+Stone segment = 2 Boulder
+
+Log = 1 Large log
+
+Clay dish = 1 Clay
+
+Foliage thatch = 1 Large Foliage / 2 Foliage
+
+Fire arrow = 1 Arrow + 1 Oil / 1 Haft + 1 Stone + 1 Oil
+
+Cotton = 3 Cotton Bols
+
+Cloth = 3 Cotton
+
+Sail = 2 Cloth
+
+Vial = 1 Glass
+
+Seat = 1 Stump
+
+String = 1 Cotton / 2 Flax
+
+Rope = 2 Cotton / 4 Flax
+
+Dish = 1 Clay
+
+Rod = 1 log / 2 Haft
+
+Wheat bundle = 4 Wheat
+
+Haft = 1 Stump/ 1 Rod
+
+Wood segment = 1 Large log/ 2 Planks/ 2 Logs
+
+Wood hull = 1 Large log/ 2 Planks/ 2 Logs
+
+Bomb = 2 Gunpowder + 1 Cloth
+
+Black dye = 2 Coal
+
+Green dye = 2 Herb
+
+Red dye = 1 Flower
+
+Purple dye = 1 Blue dye + 1 Red dye
+
+Blue dye = 3 FLax flower
+
+White dye = 1 Coconut
+
+Yellow dye = 1 Sulfur
+
+Bolt = 1 Iron
+
+=============================================================
+Food:
+------------
+
+Stew = 1 Herb + 1 Potato + 1 Raw meat + 1 Dish
+
+Fruit salad = 2 Berry + 1 Apple + 1 Banana + 1 Orange + 1 Dish
+
+Mushroom pie = 2 Mushroom + 1 Dough
+
+Pot pie = 1 Potato + 1 Raw meat + 1 Dough
+
+potato raw meat = (potato + raw meat)
+
+Bread = 1 Dough
+
+Apple pie = 1 Dough + 3 Apple
+
+Raw spiced meat = 1 Raw meat + 1 Herb
+
+Banana bread = 1 Dough + 2 Banana
+
+Berry pie = 1 Dough +  5 Berry
+
+=============================================================
+Equipment:
+------------
+
+Club = 1 Haft
+
+Backpack = 3 Leather
+
+Canteen = 1 Leather
+
+Flint = 1 Stone
+
+Flint and steel = 1 Stone + 1 Steelss
+
+Chisel = 1 Iron
+
+Grenade = 1 Gunpowder + 1 Iron
+
+Jug = 3 Clays
+
+Slingshot= 1 Haft + 1 String
+
+Bow = 1 Rod + 1 String
+
+Fishing rod = 1 Rod + 2 String
+
+Volcadon rod = 2 Volcadon scale + 2 string
+
+Crude torch = 1 Haft +  1 Foliage
+
+Cloth torch = 1 Haft + 1 Cloth
+
+Oil torch = 1 Haft + 1 Oil
+
+Oil Latern = 3 Iron + 1 Oil + 1 Glass
+
+Crystal Lantern = 3 Iron + 1 Crystal
+
+Crossbow = 3 ores + 1 Haft + 1 String
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Spear = 2 Ores + 1 Rod
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Knife = 1 Ores + 1 Haft
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Javelin = 1 Ores + 1 Rod
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Axe = 2 Ores + 1 Haft 
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Shovel = 2 Ores + 1 Rod
+
+Stone;Copper;Bronze;Iron;Steel;Mithril/Pickaxe = 3 Ores + 1 Haft
+
+Copper;Bronze;Iron;Steel;Mithril/Sword = 4 Ores + 1 Haft
+
+Wood;Copper;Bronze;Iron;Steel;Mithril/Shield = 3 Ores
+
+Leather;Copper;Bronze;Iron;Steel;Mithril;Volcadon/Armor = 5 Ores
+=============================================================
+Structures:
+------------
+
+Flag = 1 Rod + 1 Cloth
+
+Stationary cloth torch = 1 Rod + 1 Haft
+
+Compost = 1 Wood segment + 1 Foliage thatch
+
+Firepit = 2 Logs + 4 Stones/
+
+Mill = 3 Wood segment
+
+Flax press = 3 Stone segment + 1 Rod
+
+Lumbermill = 4 Wood segment
+
+Cotton Gin = 2 Wood segment
+
+Ladder = 2 Plank
+
+Fence = 2 Plank
+
+Table = 4 Plank
+
+End Table = 2 Plank
+
+Chair = 2 Plank
+
+Bookshelf = 4 Planks
+-------------------------------------------------------
+Palisade wall = 2 Wood segment
+
+Palisade Tower = 3 Wood segment
+
+Palisade Gate = 2 Wood segment 
+
+Wood ware house = 2 Wood segment
+
+Small wood Hut = 2 Wood segment + 1 Foliage thatch
+
+Wood hut = 4 Wood segment + 2 Foliage thatch
+-------------------------------------------------------
+Small marble hut = 3 Marble segment
+
+Marble hut = 6 Marble segment
+
+Marble Storehouse = 2 Marble segment
+
+Large Marble Storehouse = 4 Marble segment
+-------------------------------------------------------
+Stone hut = 6 Stone segment
+
+Small stone hut = 3 Stone segment
+
+Stone storehouse = 2 Stone segment
+
+Large stone storehouse = 4 Stone segment
+
+Small stone wall = 2 Stone segment
+
+Stone wall = 3 Stone segment
+
+Stone tower = 4 Stone segment
+-------------------------------------------------------
+Sandstone hut = 6 Sandstone segment
+
+Small sandstone hut = 3 Sandstone segment
+
+Sandstone storehouse = 2 Sandstone segment
+
+Large sandstone storehouse = 4 Sandstone segment
+
+Small sandstone wall = 2 Sandstone segment
+
+Sandstone wall = 3 Sandstone segment
+
+Sandstone tower = 4 Sandstone segment
+=============================================================
+Vehicles:
+------------
+
+Raft = 1 Wood Hull
+
+Canoe = 2 Large wood
+
+Sail boat = 1 Sail + 2 Wood hulls
+
+Schooner = 2 Sail + 4 Wood hull
+
+Cog = 3 Sail + 8 Wood hull
+
+Frigate = 4 Sail + 8 Wood hull + 1 Window
+
+Cart = 2 Wood hull
+
+Siege tower = 6 Wood hull
+=============================================================
