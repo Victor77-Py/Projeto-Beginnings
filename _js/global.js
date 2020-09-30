@@ -1,4 +1,4 @@
-setInterval(imagensFundo, 1000)
+setInterval(imagensFundo, 10000)
 
 
 function imagensFundo() {
@@ -6,23 +6,23 @@ function imagensFundo() {
 
     if (res == 1) {
 
-        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-um.png') no repeat"
+        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-cinco.png') no-repeat"
 
     } else if (res == 2) {
 
-        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-dois.png') no repeat"
+        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-dois.png') no-repeat"
 
     } else if (res == 3) {
 
-        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-tres.png') no repeat"
+        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-tres.png') no-repeat"
 
     } else if (res == 4) {
 
-        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-quatro.png') no repeat"
+        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-quatro.png') no-repeat"
 
     } else {
 
-        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-cinco.png') no repeat"
+        document.body.style.background = "url('../_imagens/_fundo/foto-paisagem-cinco.png') no-repeat"
 
     }
 

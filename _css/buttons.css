@@ -4,7 +4,7 @@
 }
 
 .neon span:nth-child(1) {
-    background-image: linear-gradient(90deg, transparent,rgb(26, 116, 14));
+    background-image: linear-gradient(90deg, transparent, rgb(8, 19, 173));
     top: 0;
     width: 100%;
     left: -100%;
@@ -17,7 +17,7 @@
 }
 
 .neon span:nth-child(2) {
-    background-image: linear-gradient(180deg, transparent, rgb(26, 116, 14));
+    background-image: linear-gradient(180deg, transparent, rgb(8, 19, 173));
     right: 0;
     height: 100%;
     top: -100%;
@@ -31,7 +31,7 @@
 }
 
 .neon span:nth-child(3) {
-    background-image: linear-gradient(270deg, transparent,rgb(26, 116, 14));
+    background-image: linear-gradient(270deg, transparent, rgb(8, 19, 173));
     bottom: 0;
     width: 100%;
     right: -100%;
@@ -45,7 +45,7 @@
 }
 
 .neon span:nth-child(4) {
-    background-image: linear-gradient(360deg, transparent, rgb(26, 116, 14));
+    background-image: linear-gradient(360deg, transparent, rgb(8, 19, 173));
     left: 0;
     height: 100%;
     bottom: -100%;
