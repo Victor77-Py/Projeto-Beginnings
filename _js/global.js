@@ -1,6 +1,5 @@
 setInterval(imagensFundo, 10000)
 
-
 function imagensFundo() {
     var res = parseInt(Math.random(1)*5)
 
