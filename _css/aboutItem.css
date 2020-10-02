@@ -1,0 +1,43 @@
+div#interface-item {
+    width: 900px;
+    background-color: white;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div#interface-item h1 {
+    text-align: center;
+    border-bottom: 2px solid #606060;
+}
+
+table#tabela-item {
+    display: block;
+    position: relative;
+    background-color: #606060;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    padding-left: 4px;
+    border-radius: 10px;
+    font-size: 24pt;
+    display: inline-block;
+}
+
+div#igual {
+    display: block;
+    position: relative;
+    bottom: 120px;
+    font-size: 34pt;
+    display: inline-block;
+}
+
+p#texto-item {
+    border-top: 2px solid #606060;
+}
+
+img#resultado {
+    width: 400px;
+}
