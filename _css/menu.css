@@ -1,5 +1,4 @@
 div#menu {
-    display: block;
     height: 1400px;
 }
 
@@ -27,7 +26,6 @@ div#menu h1#titulo-principal {
     text-transform: uppercase;
     font-family: consolas, Arial, sans-serif;
     font-size: 50pt;
-    display: block;
     position: relative;
     width: 450px;
     text-align: center;
@@ -50,7 +48,6 @@ div#menu h2#sub-titulo {
     letter-spacing: 3px;
     font-family: consolas, Arial, sans-serif;
     font-size: 30pt;
-    display: block;
     position: relative;
     width: 450px;
     text-align: center;
@@ -70,13 +67,12 @@ div#menu h2#sub-titulo:hover {
 }
 
 .blocos-um {
-    display: block;
     position: relative;
     width: 300px;
     background: white;
     color: black;
     border-radius: 3px;
-    padding: 1px 15px 1px 15px;
+    padding: 10px;
     box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
 }
 

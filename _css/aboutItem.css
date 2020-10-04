@@ -1,43 +1,82 @@
-div#interface-item {
+
+#interface-item {
     width: 900px;
     background-color: white;
-    display: block;
     position: relative;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
 }
 
-div#interface-item h1 {
-    text-align: center;
-    border-bottom: 2px solid #606060;
+#interface-item h1 {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-table#tabela-item {
+#craft {
+    position: relative;
+    width: 900px;
+    height: 400px;
+}
+
+#tabela-item {
     display: block;
     position: relative;
     background-color: #606060;
     width: 400px;
     height: 300px;
-    text-align: left;
-    padding-left: 4px;
+    margin-bottom: 25px;
     border-radius: 10px;
-    font-size: 24pt;
+    font-size: 12pt;
     display: inline-block;
 }
 
-div#igual {
+#cabeca-tabela-item tr {
     display: block;
     position: relative;
-    bottom: 120px;
-    font-size: 34pt;
-    display: inline-block;
+    margin: 10px 5px 0px 5px;
+    border: 1px solid orange;
+
 }
 
-p#texto-item {
+#cabeca-tabela-item tr th {
+    display: flex;
+    display: inline-flex;
+    margin: 10px 28.5px;
+}
+
+#corpo-tabela-item tr {
+    width: 130px;
+    display: block;
+    position: relative;
+    margin: 0px 5px;
+    border: 1px solid orange;
+}
+
+#corpo-tabela-item tr td {
+    display: flex;
+    display: inline-flex;
+    padding: 5px;
+}
+
+#igual {
+    bottom: 160px;
+    position: relative;
+    font-size: 34pt;
+    display: inline-block;
+
+}
+
+#texto-item {
     border-top: 2px solid #606060;
 }
 
-img#resultado {
+#resultado {
+    display: block;
+    position: relative;
+    left: 450px;
+    bottom: 315px;
     width: 400px;
 }
