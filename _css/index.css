@@ -1,28 +1,9 @@
-div#menu {
-    height: 1400px;
+section#menu {
+    height: 1700px;
 }
 
-div#menu div#texto-um {
-    top: 100px;
-    left: 10%;
-}
-
-div#menu div#texto-dois {
-    top: 200px;
-    left: 70%;
-}
-
-div#menu div#texto-tres {
-    top: 300px;
-    left: 10%;
-}
-
-div#menu div#texto-quatro {
-    top: 400px;
-    left: 70%;
-}
-
-div#menu h1#titulo-principal {
+section#menu h1#titulo-principal {
+    box-sizing: border-box;
     text-transform: uppercase;
     font-family: consolas, Arial, sans-serif;
     font-size: 50pt;
@@ -37,36 +18,37 @@ div#menu h1#titulo-principal {
     transition: 0.2s;
 }
 
-div#menu h1#titulo-principal:hover {
+section#menu h1#titulo-principal:hover {
     background: white;
     box-shadow: 0px 0px 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
     transition-delay: 1s;
 }
 
-div#menu h2#sub-titulo {
+section#menu h2#sub-titulo {
+    box-sizing: border-box;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: consolas, Arial, sans-serif;
     font-size: 30pt;
     position: relative;
-    width: 450px;
+    width: auto;
+    width: 470px;
     text-align: center;
     border-radius: 3px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0px auto;
     padding: 10px;
     overflow: hidden;
     transition: 0.2s;
 }
 
-div#menu h2#sub-titulo:hover {
+section#menu h2#sub-titulo:hover {
     background: white;
     box-shadow:0px 0px 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
     transition-delay: 1s;
 }
 
 .blocos-um {
+    box-sizing: border-box;
     position: relative;
     width: 300px;
     background: white;
@@ -74,6 +56,26 @@ div#menu h2#sub-titulo:hover {
     border-radius: 3px;
     padding: 10px;
     box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
+}
+
+section#menu div#texto-um {
+    top: 100px;
+    left: 10%;
+}
+
+section#menu div#texto-dois {
+    top: 200px;
+    left: 70%;
+}
+
+section#menu div#texto-tres {
+    top: 300px;
+    left: 10%;
+}
+
+section#menu div#texto-quatro {
+    top: 400px;
+    left: 70%;
 }
 
 /*background: linear-gradient(360deg, rgb(8, 19, 173), rgb(11, 163, 143));*/

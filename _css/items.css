@@ -1,9 +1,5 @@
-div#interface-items {
-    display: block;
-}
 
-div#interface-items {
-    display: block;
+section#interface-items {
     position: relative;
     width: 600px;
     background-color: white;
@@ -15,7 +11,7 @@ div#interface-items {
 
 }
 
-div#interface-items h1 {
+section#interface-items h1 {
     text-align: center;
     margin: 0px;
     border-bottom: 2px solid #606060;
@@ -47,7 +43,3 @@ div#interface-items h1 {
     text-align: center;
     border-radius: 10px;
 }
-
-section#items h2 {
-    margin: 10px;
-} 

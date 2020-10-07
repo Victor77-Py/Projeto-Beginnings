@@ -6,17 +6,13 @@ function imagensFundo() {
 
     if (res == 1) {
 
-        foto = "url('_imagens/_fundo/foto-paisagem-um.png')"
+        foto = "url('_imagens/_fundo/foto-paisagem-dois.png')"
 
     } else if (res == 2) {
 
-        foto = "url('_imagens/_fundo/foto-paisagem-dois.png')"
-
-    } else if (res == 3) {
-
         foto = "url('_imagens/_fundo/foto-paisagem-tres.png')"
 
-    } else if (res == 4) {
+    } else if (res == 3) {
 
         foto = "url('_imagens/_fundo/foto-paisagem-quatro.png')"
 

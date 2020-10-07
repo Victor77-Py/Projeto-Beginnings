@@ -1,6 +1,6 @@
 
-#interface-item {
-    width: 900px;
+#interfaceItem {
+    width: 1000px;
     background-color: white;
     position: relative;
     margin: auto;
@@ -8,75 +8,64 @@
     padding: 10px;
 }
 
-#interface-item h1 {
-    padding-left: 10px;
-    padding-top: 10px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#craft {
-    position: relative;
-    width: 900px;
-    height: 400px;
-}
-
-#tabela-item {
-    display: block;
-    position: relative;
-    background-color: #606060;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 25px;
+#craftItem h1 {
+    border: 1px solid #606060;
     border-radius: 10px;
-    font-size: 12pt;
-    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-#cabeca-tabela-item tr {
+table {
     display: block;
-    position: relative;
-    margin: 10px 5px 0px 5px;
-    border: 1px solid orange;
-
 }
 
-#cabeca-tabela-item tr th {
+.unidade {
+    width: 50px;
+}
+
+.items {
+    width: 300px;
+}
+
+table thead tr {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+table thead tr#trUnidade {
+    background-color: #606060;
     display: flex;
     display: inline-flex;
-    margin: 10px 28.5px;
 }
 
-#corpo-tabela-item tr {
-    width: 130px;
-    display: block;
-    position: relative;
-    margin: 0px 5px;
-    border: 1px solid orange;
-}
-
-#corpo-tabela-item tr td {
+table thead tr#trItems {
+    background-color: red;
     display: flex;
     display: inline-flex;
-    padding: 5px;
 }
 
-#igual {
-    bottom: 160px;
-    position: relative;
-    font-size: 34pt;
-    display: inline-block;
-
+table thead tr#trUnidade th {
+    font-size: 16pt;
 }
+
+table thead tr#trItems th {
+    font-size: 16pt;
+}
+
+table tbody#unidade {
+    display: flex;
+    background-color: orange;
+}
+
+table tbody#items {
+    display: flex;
+    background-color: olivedrab;
+}
+
 
 #texto-item {
     border-top: 2px solid #606060;
+    padding-top: 10px;
 }
 
-#resultado {
-    display: block;
-    position: relative;
-    left: 450px;
-    bottom: 315px;
-    width: 400px;
-}
+/*palegreen, #afeeee*/

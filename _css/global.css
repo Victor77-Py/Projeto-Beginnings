@@ -5,15 +5,22 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: url('../_imagens/_fundo/foto-paisagem-quatro.png') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: consolas, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
 }
 
-
+.clear {
+    clear: both;
+}
 
 div#nav {
     background-color: rgb(39, 39, 39);
@@ -34,6 +41,7 @@ div#nav ul li {
 }
 
 div#nav ul li a {
+    font-family: consolas, arial, sans-serif;   
     text-decoration: none;
     color: white;
 }
@@ -44,10 +52,12 @@ div#nav ul li:hover {
 }
 
 footer {
+
+    margin-top: 100px;
     display: block;
     position: relative;
     background: linear-gradient(to right, #606060, rgb(39, 39, 39) );
-    color: white;
+    color: #ffffff;
     height: 100px;
     text-align: center;
     padding: 10px 0px;
