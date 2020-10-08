@@ -44,12 +44,21 @@ p,span {
     border-radius: 10px;
 }
 
+.formatacao-fotosNEdit {
+    width: 666px;
+}
+
 #bloco-um p {
     width: auto;
 }
 
 #bloco-um img {
-    margin-left: 10px;
+    margin: 0px 0px 10px 10px;
     border-radius: 10px;
     float: right;
+}
+
+.listas {
+    padding: 20px;
+    line-height: 30px;
 }
